@@ -1,0 +1,36 @@
+body{
+    padding: 20px;
+}
+.parent{
+    display: flex;
+}
+.child{
+    margin: auto;
+    height: 100px;
+    border: solid 1px red;
+}
+
+.center-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px green;
+    height: 100px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.item{
+    flex: 1 1 calc(33.33% - 30px);
+    margin: 5px;
+    box-sizing: border-box;
+    min-width: 170px;
+    padding: 50px 20px;
+    font-size: 400%;
+    text-align: center;
+    background: #b5ced8;
+}
